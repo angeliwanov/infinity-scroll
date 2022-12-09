@@ -8,10 +8,10 @@ let totalImages = 0;
 
 
 // Unsplash Api
-const count = 5;
+let count = 5;
 const mykey = config.MY_KEY;
 const secretkey = config.SECRET_KEY;
-const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${mykey}&count=${count}`;
+let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${mykey}&count=${count}`;
 
 // Check if all images are loaded
 function imageLoaded() {
